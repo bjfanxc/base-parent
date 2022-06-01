@@ -31,8 +31,10 @@
         <spring-boot-admin.version>2.5.6</spring-boot-admin.version>
 
         <spring-cloud-starter-dubbo.version>2.2.7.RELEASE</spring-cloud-starter-dubbo.version>
-        <dubbo.version>2.7.15</dubbo.version>
         <spring-context-support.version>1.0.11</spring-context-support.version>
+        <dubbo.version>2.7.15</dubbo.version>
+
+        <org.projectlombok.version>1.18.16</org.projectlombok.version>
     </properties>
 
     <dependencyManagement>
@@ -79,6 +81,11 @@
                 <groupId>com.alibaba.spring</groupId>
                 <artifactId>spring-context-support</artifactId>
                 <version>${spring-context-support.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${org.projectlombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
