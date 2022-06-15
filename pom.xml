@@ -3,16 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.simon.scaffold</groupId>
-    <artifactId>simon-parent</artifactId>
+    <groupId>com.base.scaffold</groupId>
+    <artifactId>base-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>simon-parent</name>
-    <description>simon-paren</description>
+    <name>base-parent</name>
+    <description>base-parent</description>
 
     <developers>
         <developer>
-            <id>simon</id>
+            <id>base</id>
             <email>xxx@163.com</email>
             <url>https://www.xxx.com/index.html</url>
         </developer>
