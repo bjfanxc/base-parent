@@ -30,7 +30,6 @@
 
         <spring-cloud-starter-dubbo.version>2.2.7.RELEASE</spring-cloud-starter-dubbo.version>
         <spring-context-support.version>1.0.11</spring-context-support.version>
-        <!--dubbo.version>2.7.13</dubbo.version-->
 
         <org.projectlombok.version>1.18.16</org.projectlombok.version>
 
@@ -76,11 +75,6 @@
                 <artifactId>spring-cloud-starter-dubbo</artifactId>
                 <version>${spring-cloud-starter-dubbo.version}</version>
             </dependency>
-            <!--dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
-            </dependency-->
             <dependency>
                 <groupId>com.alibaba.spring</groupId>
                 <artifactId>spring-context-support</artifactId>
