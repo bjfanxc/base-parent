@@ -5,10 +5,8 @@
 
     <groupId>com.base.scaffold</groupId>
     <artifactId>base-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>base-parent</name>
-    <description>base-parent</description>
 
     <developers>
         <developer>
@@ -32,13 +30,15 @@
 
         <spring-cloud-starter-dubbo.version>2.2.7.RELEASE</spring-cloud-starter-dubbo.version>
         <spring-context-support.version>1.0.11</spring-context-support.version>
-        <dubbo.version>2.7.15</dubbo.version>
+        <!--dubbo.version>2.7.13</dubbo.version-->
 
         <org.projectlombok.version>1.18.16</org.projectlombok.version>
 
         <junit.version>4.11</junit.version>
 
         <hutool.version>5.7.22</hutool.version>
+
+        <apollo.version>1.9.1</apollo.version>
     </properties>
 
     <dependencyManagement>
@@ -76,11 +76,11 @@
                 <artifactId>spring-cloud-starter-dubbo</artifactId>
                 <version>${spring-cloud-starter-dubbo.version}</version>
             </dependency>
-            <dependency>
+            <!--dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo.version}</version>
-            </dependency>
+            </dependency-->
             <dependency>
                 <groupId>com.alibaba.spring</groupId>
                 <artifactId>spring-context-support</artifactId>
@@ -101,6 +101,11 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ctrip.framework.apollo</groupId>
+                <artifactId>apollo-client</artifactId>
+                <version>${apollo.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
